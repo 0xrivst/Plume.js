@@ -1,0 +1,16 @@
+{
+  "name": "plume.js",
+  "module": "index.js",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.js --outdir dist --target=bun",
+    "test": "bun test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
